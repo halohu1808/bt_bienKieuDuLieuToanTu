@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biến dữ liệu toán tử</title>
+</head>
+<body>
+
+
+<script>
+    //điểm trung bình và tổng
+
+    let toan = prompt('Hay nhap diem Toan: ');
+    let ly = prompt('Hay nhap diem Ly');
+    let hoa = prompt('Hya nhap diem Hoa:');
+
+    let diemToan = parseInt(toan);
+    let diemLy = parseInt(ly);
+    let diemHoa = parseInt(hoa);
+
+    let diemTrungBinh;
+    let diemTong;
+
+    diemTong = diemHoa + diemToan + diemLy;
+    diemTrungBinh = diemTong / 3;
+
+    document.write('Điểm tổng là: ' + diemTong + "<br>");
+    document.write('Điểm trung bình là: ' + diemTrungBinh);
+
+</script>
+
+
+</body>
+</html>
